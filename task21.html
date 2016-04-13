@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tag</title>
+    <script type="text/javascript" src="task21.js"></script>
+</head>
+<style rel="stylesheet" type="text/css">
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .box {
+        margin: 30px;
+        text-align: center;
+    }
+    span{
+        margin-top: 15px;
+        display: inline-block;
+        background: blue;
+        padding: 3px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+    #showHobby span{
+        background: orange;
+    }
+</style>
+<body>
+<div class="box">
+    Tag:<input type="text" id="tag">
+
+    <div id="showTag"></div>
+</div>
+
+<div class="box">
+    <textarea id="textarea"></textarea><br>
+    <button id="btn">确认兴趣爱好</button>
+    <div id="showHobby" ></div>
+</div>
+</body>
+</html>
