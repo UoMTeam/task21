@@ -18,6 +18,8 @@ function addTag(event) {
         var spanTag = document.createElement("span");
         var value = oTag.value;
         value = value.replace(/,/g, '');
+        value = value.replace(/，/g, '');
+
         value = value.trim();
         if (value == "") {
             oTag.value = "";
